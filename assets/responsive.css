@@ -1,0 +1,302 @@
+/* navbar start */
+@media (min-width: 992px)  {
+    nav.navbar.shadow{
+        box-shadow: none !important;
+    }
+}
+/* navbar end */
+
+/* banner start */
+@media (max-width: 990px){
+    header{
+        margin-bottom: 20px!important;
+    }
+    #banner h4 {
+        font-weight: 200;
+        font-size: 20px;
+        color: #353535;
+    } 
+    #banner h1 {
+        font-weight: 600;
+        font-size: 40px;
+        color: #353535;
+        padding-bottom: 25px;
+    }
+    #banner p {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 180%;
+        color: #353535;
+        padding-bottom: 10px;
+    }
+    .btn {
+        padding: 10px 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        border: none;
+        border-radius: 20px;
+    }
+    .btn-trans{
+        padding: 10px 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        border-radius: 20px;
+    }
+    #banner .banner-media h5 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+/* banner end */
+
+/* About part start */
+@media (max-width:990px) {
+    #about{
+        padding-bottom: 15px;
+        margin-bottom: 80px;
+    }
+#about .container .row h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#about .container .row p {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+#about .round img {
+    display: none;
+}
+
+}
+/* About part end */
+
+/* Service Part */
+@media (max-width:990px) {
+    #service {
+        margin-bottom: 45px;
+    }
+}
+/* Service Part */
+
+/* Branding part strat */
+@media (max-width:990px) {
+    #branding .branding-cnt h4 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    #branding .branding-cnt p {
+        font-size: 15px;
+        margin-bottom: 33px;
+    }
+    #branding .branding-cnt .btn-brand {
+        padding: 10px 25px;
+    }
+    #branding .branding-cnt{
+        margin-bottom: 35px;
+    }
+    .branding-cnt .lshape{
+        display: none;
+    }
+    .branding-cnt .bshape{
+        display: none;
+    }
+
+}
+/* Branding part End */
+/* Skill Part Start */
+@media (max-width:990px) {
+    #branding {
+        margin-bottom: 55px;
+    }
+    #skills .skill-cnt h3 {
+        font-size: 37px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #skills .skill-cnt p {
+        font-size: 15px;
+        text-align: center;
+    }
+    #skills .skill-cnt h4 {
+        text-align: center;
+    }
+    #skills .skill-cnt h5 {
+        text-align: center;
+    }
+    #skills {
+        margin-bottom: 15px;
+    }
+    .skill-card{
+        text-align: center;
+    }
+}
+/* Skill Part End */
+/* Work exp part start */
+@media (max-width:990px) {
+    .timeline{
+        border-left: 2px dashed black;
+        position: relative;
+        padding-left: 40px;
+        max-width: 90%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    #workexp .container h2 {
+        margin-bottom: 78px;
+        font-size: 45px;
+    }
+    .timeline .date{
+        border-right: none;
+        padding-bottom: 15px;
+    }
+    .timeline .date h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .timeline .date h4 {
+        font-size: 14px;
+    }
+    .timeline .job-position h5 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .timeline .job-position p {
+        font-size: 14px;
+    }
+    .timeline .date::before {
+        left: -48px;
+    }
+    .timeline .date::after {
+        left: -38px;
+    }
+}
+/* Work exp part end */
+
+/* Expart Area Part Start */
+@media (max-width:990px) {
+    #workexp {
+        margin-bottom: 69px;
+    }
+    #expert-area h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    #expert-area p {
+        font-size: 15px;
+        margin-bottom: 21px;
+    }
+    #expert-area #pills-tab{
+        margin-top: 20px;
+    }
+    .progress-wrapper{
+        margin-bottom: 15px;
+    }
+    #expert-area #skill{
+        margin-bottom: 30px;
+    }
+    #expert-area {
+        margin-bottom: 70px;
+    }
+}
+/* Expart Area Part End */
+/* Sevis Part Start */
+@media (max-width:990px) {
+        #sevises h2 {
+            font-size: 40px;
+        }
+        #sevises {
+            padding: 38px 0 45px 0;
+        }
+        #sevises p {
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+        .sevisCard {
+            padding: 11px 50px 15px 50px;
+            margin-bottom: 25px;
+        }
+}
+/* Sevis Part End */
+
+/* Feedback Part Start */
+@media (max-width:990px) {
+    #feedback {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    #feedback h2 {
+        font-size: 40px;
+    }
+    #feedback p {
+        font-size: 13px;
+        margin-bottom: 37px;
+    }
+    #feedback p {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+}
+/* Feedback Part End */
+
+/* Blogpost Part Start */
+@media (max-width:990px) {
+    #blogpost h2 {
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 22px;
+    }
+    .blog-card{
+        text-align: center;
+        margin-top: 60px;
+    }
+    #blogpost p {
+        margin-bottom: 5px;
+    }
+}
+/* Blogpost Part End */
+
+/* Footer Part Start */
+
+@media (max-width:990px) {
+    footer img :nth-child(1){
+        margin-bottom: 30px;
+    }
+    footer h6 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    footer h1 {
+        font-size: 31px;
+    }
+    footer p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    footer h5 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    footer h4 {
+        font-size: 15px;
+    }
+    footer h3 {
+        font-size: 15px;
+    }
+    footer button {
+        padding: 13px 24px;
+    }
+    footer h3{
+        margin-bottom: 15px;
+    }
+    footer button{
+        margin-bottom: 45px;
+    }
+}
+
+/* Footer Part End */
+
